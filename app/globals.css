@@ -11,8 +11,8 @@
 
 /* base styles */
 body {
-    background: rgba(14, 14, 14, 0.89);
-    @apply text-gray-500 m-8;
+
+    @apply text-gray-500 m-8 bg-zinc-900;
 }
 
 h1, h2 {
