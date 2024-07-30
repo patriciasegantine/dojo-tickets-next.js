@@ -1,0 +1,254 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Optimize page load speed",
+      "body": "The website's load time is currently higher than acceptable standards. Please optimize images, reduce the size of CSS and JavaScript files, and consider implementing lazy loading for media content.",
+      "priority": "high",
+      "user_email": "samus@spacewarrior.com",
+      "open_date": "2024-07-20",
+      "status": "open",
+      "assigned_to": "samus@spacewarrior.com",
+      "due_date": "2024-08-01",
+      "last_updated": "2024-07-25",
+      "tags": [
+        "performance",
+        "high priority"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": "link@gameworld.com",
+          "date": "2024-07-22",
+          "text": "Please ensure the changes don't affect the layout."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Add user feedback form",
+      "body": "Implement a feedback form on the website where users can submit their comments and suggestions. Ensure that the form is easy to use and that feedback is securely stored for review.",
+      "priority": "medium",
+      "user_email": "luigi@gameworld.com",
+      "open_date": "2024-07-22",
+      "status": "closed",
+      "assigned_to": "luigi@gameworld.com",
+      "due_date": "2024-07-30",
+      "last_updated": "2024-07-30",
+      "tags": [
+        "feature",
+        "feedback"
+      ],
+      "comments": []
+    },
+    {
+      "id": "3",
+      "title": "Update Terms of Service",
+      "body": "The Terms of Service need to be updated to reflect new company policies. Please update the document on the website and ensure that all users are notified of the changes.",
+      "priority": "low",
+      "user_email": "yoshi@jungle.com",
+      "open_date": "2024-07-23",
+      "status": "closed",
+      "assigned_to": "yoshi@jungle.com",
+      "due_date": "2024-08-05",
+      "last_updated": "2024-07-30",
+      "tags": [
+        "legal",
+        "update"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": "yoshi@jungle.com",
+          "date": "2024-07-29",
+          "text": "Terms have been updated and published."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Improve accessibility features",
+      "body": "The website should be more accessible to users with disabilities. Implement features such as screen reader compatibility, keyboard navigation, and alternative text for images.",
+      "priority": "high",
+      "user_email": "kirby@dreamland.com",
+      "open_date": "2024-07-24",
+      "status": "in-progress",
+      "assigned_to": "kirby@dreamland.com",
+      "due_date": "2024-08-10",
+      "last_updated": "2024-07-30",
+      "tags": [
+        "accessibility",
+        "UI/UX",
+        "high priority"
+      ],
+      "comments": []
+    },
+    {
+      "id": "5",
+      "title": "Fix broken links",
+      "body": "Several links on the website are currently broken or lead to incorrect pages. Please audit the site and update or remove these links to improve user experience.",
+      "priority": "medium",
+      "user_email": "fox@starfleet.com",
+      "open_date": "2024-07-25",
+      "status": "open",
+      "assigned_to": "fox@starfleet.com",
+      "due_date": "2024-08-07",
+      "last_updated": "2024-07-29",
+      "tags": [
+        "SEO",
+        "links"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": "falco@starfleet.com",
+          "date": "2024-07-27",
+          "text": "Identified 15 broken links, working on fixes."
+        },
+        {
+          "id": 2,
+          "user": "falco@starfleet.com",
+          "date": "2024-07-27",
+          "text": "Identified 15 broken links, working on fixes."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Enhance site security",
+      "body": "Recent audits have highlighted some security vulnerabilities. Please prioritize implementing stronger encryption, updating outdated libraries, and adding additional security measures to protect user data.",
+      "priority": "high",
+      "user_email": "sheik@warrior.com",
+      "open_date": "2024-07-21",
+      "status": "in-progress",
+      "assigned_to": "sheik@warrior.com",
+      "due_date": "2024-07-28",
+      "last_updated": "2024-07-28",
+      "tags": [
+        "security",
+        "urgent"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": "zelda@warrior.com",
+          "date": "2024-07-28",
+          "text": "Security updates implemented and tested."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Add new blog section",
+      "body": "Create a new blog section on the website to share company news, updates, and industry insights. The section should be easy to navigate and integrated with the existing design.",
+      "priority": "medium",
+      "user_email": "mario@superbros.com",
+      "open_date": "2024-07-19",
+      "status": "open",
+      "assigned_to": "mario@superbros.com",
+      "due_date": "2024-08-03",
+      "last_updated": "2024-07-29",
+      "tags": [
+        "content",
+        "new feature"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": "peach@superbros.com",
+          "date": "2024-07-25",
+          "text": "Design mockups for the blog section are ready."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Redesign contact page",
+      "body": "The contact page needs a redesign to improve usability and visual appeal. Consider adding a map, a contact form, and social media links.",
+      "priority": "low",
+      "user_email": "daisy@flowerpower.com",
+      "open_date": "2024-07-18",
+      "status": "closed",
+      "assigned_to": "daisy@flowerpower.com",
+      "due_date": "2024-07-30",
+      "last_updated": "2024-07-30",
+      "tags": [
+        "UI/UX",
+        "design"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": "luigi@gameworld.com",
+          "date": "2024-07-28",
+          "text": "New design has been implemented."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Implement dark mode",
+      "body": "Add a dark mode option to the website. Ensure the feature is toggleable and that all elements are correctly styled in dark mode.",
+      "priority": "medium",
+      "user_email": "zelda@warrior.com",
+      "open_date": "2024-07-26",
+      "status": "open",
+      "assigned_to": "zelda@warrior.com",
+      "due_date": "2024-08-05",
+      "last_updated": "2024-07-29",
+      "tags": [
+        "UI/UX",
+        "new feature"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": "link@gameworld.com",
+          "date": "2024-07-27",
+          "text": "Initial dark mode prototype is ready for review."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Localize website content",
+      "body": "Translate the website content into Spanish and French. Ensure that all pages are accurately translated and culturally appropriate.",
+      "priority": "medium",
+      "user_email": "mario@superbros.com",
+      "open_date": "2024-07-27",
+      "status": "in-progress",
+      "assigned_to": "mario@superbros.com",
+      "due_date": "2024-08-02",
+      "last_updated": "2024-07-29",
+      "tags": [
+        "localization",
+        "content"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": "luigi@gameworld.com",
+          "date": "2024-07-29",
+          "text": "Spanish translation complete, working on French."
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Company Updates",
+      "description": "Stay informed with the latest news and announcements from the company. Get updates on new features, policy changes, and important events."
+    },
+    {
+      "id": 2,
+      "title": "Company Announcements",
+      "description": "Keep up with the latest announcements from the company. Be the first to know about new initiatives, product launches, and important updates."
+    },
+    {
+      "id": 3,
+      "title": "What's New",
+      "description": "Discover the latest updates and improvements. Stay in the loop with new product features, enhancements, and company news."
+    }
+  ]
+}

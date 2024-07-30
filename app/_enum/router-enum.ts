@@ -1,5 +1,5 @@
 export const RouterEnum = {
-  home: '/',
+  dashboard: '/',
   tickets: 'tickets',
   news: 'news'
 }
