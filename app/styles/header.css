@@ -1,0 +1,44 @@
+/*nav styles */
+header {
+    @apply
+    pb-4
+    border-b-[1px] border-zinc-700
+    flex items-center justify-between gap-5
+    my-10 mx-auto
+    max-w-5xl;
+}
+
+nav {
+    @apply
+    flex items-center justify-end gap-5
+}
+
+nav a, nav span {
+    @apply text-zinc-400;
+}
+
+nav a:hover {
+    @apply text-zinc-600;
+}
+
+.active {
+    @apply
+    text-primary
+}
+
+main nav {
+    @apply border-0;
+}
+
+.logo-container {
+    @apply
+    flex justify-center items-center gap-3;
+}
+
+.logo-container h2 {
+    @apply text-zinc-300;
+}
+
+.logo-container img {
+    @apply rounded-3xl;
+}

@@ -1,0 +1,43 @@
+@import 'styles/header.css';
+@import 'styles/form.css';
+@import 'styles/error.css';
+@import 'styles/pill.css';
+@import 'styles/card.css';
+@import 'styles/button.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base styles */
+body {
+    background: rgba(14, 14, 14, 0.89);
+    @apply text-gray-500 m-8;
+}
+
+h1, h2 {
+    @apply font-bold text-primary text-lg;
+}
+
+main {
+    @apply max-w-5xl my-12 mx-auto px-8;
+}
+
+main > h2 {
+    @apply mb-4 pb-2 text-base ;
+}
+
+
+p {
+    @apply
+    m-0
+}
+
+p > a {
+    @apply text-primary underline;
+}
+
+.flex-column-container {
+    @apply
+    flex flex-col
+}

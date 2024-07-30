@@ -1,0 +1,24 @@
+.btn {
+    @apply
+    px-3 py-2
+    rounded-sm
+    flex justify-between items-center gap-2
+    text-sm;
+}
+
+.btn:hover {
+    @apply bg-opacity-90;
+}
+
+.btn-primary {
+    @apply bg-primary text-white;
+}
+
+.btn-secondary {
+    @apply bg-gray-200 text-gray-900;
+}
+
+.btn-container {
+    @apply
+    flex justify-center my-8
+}
