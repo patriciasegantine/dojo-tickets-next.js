@@ -1,0 +1,27 @@
+/* card styles */
+.card {
+    @apply
+    bg-zinc-700
+    shadow-sm
+    rounded-md
+    py-3 px-4 my-4
+    relative
+    overflow-hidden;
+}
+
+.card h3 {
+    @apply
+    font-bold text-zinc-100 text-sm
+    mb-0;
+}
+
+.card p {
+    @apply my-4 text-sm leading-6 text-zinc-300;
+}
+
+.card .comment {
+    @apply
+    bg-zinc-700
+    border-zinc-500 border-2
+    ;
+}

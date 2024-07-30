@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { RouterEnum } from "./_enum/router-enum";
+import { News } from "./news/news";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
           <button className="btn-primary btn">View Tickets</button>
         </Link>
       </div>
+      
+      <News/>
+    
     </main>
   )
 }
