@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from "../components/card";
-import { RouterEnum } from "../_enum/router-enum";
+import { endpoints } from "../api/endpoints";
 
 interface NewsProps {
   id: number
@@ -9,7 +9,7 @@ interface NewsProps {
 }
 
 async function getNews(): Promise<NewsProps[]> {
-  const resp = await fetch(`http://localhost:4000/${RouterEnum.news}`, {
+  const resp = await fetch(`${endpoints.news.getNewsList}`, {
     next: {revalidate: 30}
   })
   return resp.json()
@@ -21,20 +21,18 @@ export default async function NewsList() {
   return (
     <>
       {
-        news?.map(card => {
-          return (
-            <Card
-              key={card.id}
-              title={card?.title}
-              content={card?.description}
-            />
-          )
-        })
+        news.length
+          ? news?.map(card => {
+            return (
+              <Card
+                key={card.id}
+                title={card?.title}
+                content={card?.description}
+              />
+            )
+          })
+          : <p>Ops! There are no news!</p>
       }
-      
-      {news.length === 0 && (
-        <p>Ops! There are no news!</p>
-      )}
     </>
   );
 };

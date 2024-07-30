@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "json": "json-server --watch --port 4000 _data/db.json"
+    "json": "json-server --watch --port 5000 _data/db.json"
   },
   "dependencies": {
     "classnames": "^2.5.1",
