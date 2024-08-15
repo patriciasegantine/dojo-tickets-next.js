@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";
 import { RouterEnum } from "./_enum/router-enum";
 
-function NotFound(props) {
+function NotFound() {
   return (
     <main className='text-center'>
       <h2 className='text-3xl'>There was as problem.</h2>
