@@ -1,6 +1,11 @@
 import React from 'react';
 
-export const Card = ({title, content}) => {
+interface CardProps {
+  title: string
+  content: string
+}
+
+export const Card = ({title, content}: CardProps) => {
   return (
     <div className="card">
       <h3>{title}</h3>

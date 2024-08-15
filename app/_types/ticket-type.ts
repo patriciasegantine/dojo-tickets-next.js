@@ -21,4 +21,11 @@ export interface TicketProps {
   last_updated: string;
   tags: string[];
   comments: Comment[];
-};
+}
+
+export interface CreateTicketProps {
+  title: string;
+  body: string;
+  priority: PriorityType;
+  user_email: string;
+}
