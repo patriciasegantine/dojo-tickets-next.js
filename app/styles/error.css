@@ -1,0 +1,13 @@
+/* feedback styles */
+.error {
+    @apply
+    border-2
+    border-red-500
+    bg-red-300
+    text-red-800
+    py-1 px-2
+    rounded-sm
+    block
+    max-w-fit
+    my-4 mx-auto;
+}

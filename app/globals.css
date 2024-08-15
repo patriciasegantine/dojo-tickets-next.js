@@ -41,3 +41,8 @@ p > a {
     @apply
     flex flex-col
 }
+
+.flex-container {
+    @apply
+    flex items-center justify-between
+}
