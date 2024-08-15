@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dojo Helpdesk
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Dojo Helpdesk is a ticket management application designed for helpdesk teams to efficiently manage and resolve customer support tickets. This application provides an intuitive interface to create, track, and close support tickets, enhancing productivity and ensuring timely customer service.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[<img src="public/img/ticket.jpg" alt="dojo-tickets">](https://github.com/patriciasegantine/next-shadcn-recipes.git)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚧 Project in Development
+Please note that this project is currently under active development. Features and functionality may change, and there may be bugs or incomplete implementations. This is a personal project where I am actively training to improve my knowledge of the new features in Next.js 14. I will be regularly updating it as I explore and integrate new features and best practices.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
+## Features
 
-## Learn More
+- **Ticket Management**: Create, update, and resolve support tickets.
+- **Real-Time Updates**: View ticket statuses in real-time.
+- **User-Friendly Interface**: Simple and intuitive UI using React and TailwindCSS.
+- **Customizable Workflows**: Adaptable ticket workflows to suit different business needs.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get started with Dojo Helpdesk, follow the steps below:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/patriciasegantine/next-shadcn-recipes.git
+   cd dojo-helpdesk
+   ```
 
-## Deploy on Vercel
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Start the JSON server for mock data:
+   ```bash
+   npm run json
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+
+
+## Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm run start`: Starts the production server.
+- `npm run json`: Starts a JSON server for mock data at port 5000.
+
+## Technologies Used
+
+- **[Next.js](https://nextjs.org/)**: For server-side rendering and static site generation.
+- **[React](https://reactjs.org/)**: For building the user interface.
+- **[TailwindCSS](https://tailwindcss.com/)**: For styling the application.
+- **[TypeScript](https://www.typescriptlang.org/)**: For type-safe development.
+- **[JSON Server](https://github.com/typicode/json-server)**: For mocking API data during development.
+
+
+## Development
+
+If you'd like to contribute, feel free to open a pull request. Please ensure your code follows the linting and formatting rules specified in the project.
+
+## License
+
+This project is licensed under the MIT License.

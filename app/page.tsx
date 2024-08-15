@@ -9,11 +9,14 @@ export default function Home() {
       <p>
         Your central hub for managing and resolving customer inquiries efficiently. Stay on top of open tickets, track
         ongoing issues, and review completed cases. Access real-time metrics and updates to enhance your support team's
-        performance and deliver exceptional customer service. Explore the latest company news and announcements to stay
+        performance and deliver exceptional customer service.
+      </p>
+      
+      <p>
+        Explore the latest company news and announcements to stay
         informed about new features and important changes. Let's work together to provide the best support experience
         for our users.
       </p>
-      
       
       <div className="btn-container ">
         <Link href={RouterEnum.tickets}>

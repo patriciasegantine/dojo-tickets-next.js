@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import logo from "../../public/dojo.jpeg";
+import logo from "../../public/logo.jpeg";
 
 export const Logo = () => {
   return (
